@@ -6,12 +6,12 @@
 # See the solution video in the 100 Days of Python Course for explainations.
 
 import os
-import datetime 
+import datetime as dt
 import random
 import pandas
 import smtplib
 
-now = datetime.now()
+now = dt. datetime.now()
 today = (now.month,now.day,)
 birthday = pandas.read_csv("birthdays.csv")
 day_extract=(birthday["day"])
