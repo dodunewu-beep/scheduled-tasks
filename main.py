@@ -4,6 +4,8 @@
 # 3. Update the SMTP ADDRESS to match your email provider.
 # 4. Update birthdays.csv to contain today's month and day.
 # See the solution video in the 100 Days of Python Course for explainations.
+
+import os
 import datetime as dt
 import random
 import pandas
