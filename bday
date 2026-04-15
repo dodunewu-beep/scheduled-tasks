@@ -42,31 +42,4 @@ with smtplib.SMTP("smtp.gmail.com") as connection:
     connection.close()
 
 
-name,email,year,month,day
-Michaela,dnew94125@gmail.com,2002,04,15
-Greg,test@email.com,1981,12,21
-sarah,s@ymail.com,1990,07,23
-Dear [NAME],
 
-Happy birthday!
-
-All the best for the year!
-
-Angela
-
-Hey [NAME],
-
-Happy birthday! Have a wonderful time today and eat lots of cake!
-
-Lots of love,
-
-Angela
-
-
-Dear [NAME],
-
-It's your birthday! Have a great day!
-
-All my love,
-
-Angela
