@@ -1,6 +1,5 @@
 pandas
 datetime
-
-random
+python -m pip install --upgrade piprandom
 smtplib
 os
