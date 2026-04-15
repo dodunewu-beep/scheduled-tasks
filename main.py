@@ -39,12 +39,12 @@ with open (random_letter,"r") as file:
     x=txt.replace("[NAME]",f"{name}")
     print(x)
 
-my_email=""
-password=""
+my_email="myemail@gmail.com"
+password="mysecretpassword"
 
 with smtplib.SMTP("smtp.gmail.com") as connection:
 
     connection.starttls()
     connection.login(user=my_email,password=password)
-    connection.sendmail(from_addr="dnew94125@gmail.com",to_addrs="dnew94125@gmail.com",msg=f"Subject:Happy birthday \n\n {x}")
+    connection.sendmail(from_addr=my_email,to_addrs=my_email,msg=f"Subject:Happy birthday \n\n {x}")
     connection.close()
